@@ -17,7 +17,11 @@ body{
 
 .leftcolumn{
   float: left;
-  width: 75%
+  width: 75%;
+}
+.leftcolumnart{
+  float: left;
+  width: 100%;
 }
 
 .rightcolumn{
