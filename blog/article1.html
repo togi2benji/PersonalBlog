@@ -16,8 +16,24 @@
         <div class="card">
           <h2>Article 1</h2>
           <h5>this is the description for article 1, April 21, 2020</h5>
-          <div class="fakeimg" style="height:200px;">
-            Image
+          <div class="imagesetting">
+            <picture>
+              <source
+              srcset="../images/snowy-mountain-639x425.jpg"
+              type="image/jpg"
+              media="all and (max-width: 700px)"
+              />
+              <source
+              srcset="../images/snowy-mountain-1279x852.jpg"
+              type="image/jpg"
+              media="all and (min-width: 701px) and (max-width: 1300px)"
+              />
+              <source
+              srcset="../images/snowy-mountain-1559x1065.jpg"
+              type="image/jpg"
+              media="all and (min-width: 1301px)"
+              />
+            </picture>
           </div>
           <p>Some text..</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

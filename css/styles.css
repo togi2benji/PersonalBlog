@@ -55,9 +55,51 @@ body{
   margin-top: 20px;
 }
 
-@media screen and (max-width: 800px){
-    .leftcolumn, .rightcolumn{
-      width: 100%;
-      padding: 0;
-    }
+@media screen and (max-width: 700px) {
+  .imagesetting{
+    background-image: url(../images/snowy-mountain-639x425.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 425px;
+  }
+  .leftcolumn, .rightcolumn{
+    width: 100%;
+    padding: 0;
+  }
+  img{
+    width:100%;
+  }
+  .header{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1300px) {
+  .imagesetting{
+    background-image: url(../images/snowy-mountain-1279x852.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 852px;
+  }
+  img{
+    width:90%;
+  }
+  .header{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width:1301px) {
+  .imagesetting{
+    background-image: url(../images/snowy-mountain-1599x1065.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1065px;
+  }
+  img{
+    width:60%;
+  }
+  .header{
+    font-size: 3rem;
+  }
 }
