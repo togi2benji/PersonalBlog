@@ -1,0 +1,36 @@
+body{
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+.card{
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.leftcolumn{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.leftcolumnart{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.rightcolumn{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  grid-column: auto;
+}

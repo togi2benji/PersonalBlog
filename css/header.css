@@ -1,0 +1,8 @@
+.header{
+  display: grid;
+  justify-content: center;
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;//this is to make the text align to the center;
+  background: white;
+}
